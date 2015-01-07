@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="assets/local.css">
   
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css" rel="stylesheet"> -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow.min.css" rel="stylesheet">
 </head>
 <body>
   
@@ -128,6 +130,33 @@
 
       <div class="osp">
         <p>
+          <strong>PL/JSON</strong>
+          <span class="ospl">
+            [<a href="https://github.com/pljson/pljson">github</a>]
+          </span>
+        </p>
+
+        <div class="ospd">
+          <p>
+            <em>PL/JSON</em> is a set of Oracle PL types and packages that
+            provide JSON support to the Oracle PL language.
+          </p>
+          <p>
+            I was made a maintainer of this project in November of 2014. I
+            spearheaded moving the project from SourceForge to GitHub, in an
+            effort to make it more attractive to new contributors, and
+            reorganized the structure of the project's source files.
+          </p>
+          <p>
+            Prior to becoming a maintainer, I had contributed patches to
+            implement JSONP support. I had also monitored the SourceForge
+            forums and helped others learn the library.
+          </p>
+        </div>
+      </div>
+
+      <div class="osp">
+        <p>
           <strong>Thymeleaf Layout Interceptor</strong>
           <span class="ospl">
             [<a href="https://github.com/jsumners/thymeleaf-layout-interceptor">github</a>]
@@ -139,6 +168,58 @@
             <em>Thymeleaf Layout Interceptor</em> is a
             <a href="http://spring.io/">Spring</a> request interceptor that
             facilitates using a Thymeleaf template as a layout definition.
+          </p>
+        </div>
+      </div>
+
+      <div class="osp">
+        <p>
+          <strong>Tomcat RPM</strong>
+          <span class="ospl">
+            [<a href="https://github.com/jsumners/tomcat-rpm">github</a>]
+          </span>
+        </p>
+
+        <div class="ospd">
+          <p>
+            <em>Tomcat RPM</em> is a project that simplifies building a
+            <a href="http://tomcat.apache.org/">Tomcat</a> package for
+            Red Hat Enterprise Linux, and similar distributions.
+          </p>
+          <p>
+            This is my own fork of work previously started by another
+            individual. I greatly overhauled the build script to perform the
+            build within an environment totally maintained by the build
+            script. I also added in building the Tomcat Native library and
+            bundling it into the RPM. Finally, I added JSVC to the generated
+            RPM.
+          </p>
+          <p>
+            The result of my work on the project means that generating a custom
+            Tomcat package with all the bells and whistles is as simple as
+            running:
+          </p>
+          <pre><code class="lang-bash">$ ./build.sh</code></pre>
+        </div>
+      </div>
+
+      <div class="osp">
+        <p>
+          <strong>WinLN</strong>
+          <span class="ospl">
+            [<a href="https://bitbucket.org/jsumners/winln/wiki/Home">bitbucket</a>]
+          </span>
+        </p>
+
+        <div class="ospd">
+          <p>
+            <em>WinLN</em> is Windows tool I wrote to manage symbolic links.
+            It makes creating symbolic links in Windows very easy, and it
+            retains a record of each symbolic link created with the tool.
+          </p>
+          <p>
+            This tool is written in C# .NET using the Windows Forms
+            library.
           </p>
         </div>
       </div>
@@ -172,5 +253,9 @@
     <a href="http://stackexchange.com/users/5078/jsumners" class="fa fa-2x fa-stack-exchange"></a>
     <a href="http://www.linkedin.com/pub/james-sumners" class="fa fa-2x fa-linkedin"></a>
   </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/bash.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
