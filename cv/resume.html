@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #4A4A4A;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #4E92BD;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #90C5DF;
+  }
+  h2:hover {
+      background-color: #90C5DF;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #4E92BD;
+  }
+  a:hover, a:active {
+      background-color: #90C5DF;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #D2D6D7;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="james-sumners">James Sumners</h1>
+<hr />
+<blockquote>
+<p>Specialties: Linux, HTML, CSS, JavaScript, Java<br /><em>An adept system administrator and developer</em></p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<dl>
+<dt><strong>Clayton State University (Network &amp; Enterprise Services)</strong></dt>
+<dd><p><em>Linux System Administrator, November 2014 – Present</em></p>
+<p>I am the lead system administrator for all Linux systems used by Clayton State University. In this posistion, some of my various duties include:</p>
+<ul>
+<li>Implement SSL termination and load balancing for campus websites using HAProxy and Keepalived</li>
+<li>Primary administrator for all Linux based servers (30+)</li>
+<li>Maintain and package Red Hat RPMs</li>
+<li>Setup and administer Red Hat Satellite 6</li>
+<li>Lead campus web portal replacement committee</li>
+<li>Member of the change management board</li>
+</ul>
+</dd>
+<dt><strong>Clayton State University (Administrative Systems)</strong></dt>
+<dd><p><em>Database Developer/Linux Administrator, March 2009 - November 2014</em></p>
+<p>In this position I was a web developer, database developer, and Linux system administor. Some of my accomplishments in this position include:</p>
+<ul>
+<li>Developed a replacement SSO connector for Ellucian's Luminis 4 web portal</li>
+<li>Wrote and maintained Oracle PL/SQL packages to facilitate backend operations, e.g. scheduled emails with inline attachments and data integration betwen systems</li>
+<li>Maintained all Linux systems powering the campus Student Information System (Banner)</li>
+<li>Developed a two-factor authentication add-on for the campus's Luminis 4 implementation</li>
+<li>Developed REST based web APIs for data integration between systems like the Student Information System and the campus web portal</li>
+</ul>
+</dd>
+<dt><strong>Platypus Web Productions</strong></dt>
+<dd><p><em>Lead Web Developer, April 2009 – December 2009</em></p>
+<p><em>Platypus Web Productions</em> was a short lived independent web design and development firm established by me and a partner. In my role as the web developer I:</p>
+<ul>
+<li>Developed a simple PHP templating engine for use in client projects</li>
+<li>Worked with the lead designer to devise workable web site designs</li>
+<li>Implemented web site designs from lead designer in PHP, HTML, and CSS</li>
+<li>Implemented dynamic functionality of designs using JavaScript and jQuery</li>
+</ul>
+</dd>
+<dt><strong>Sumners Blueberry Farms</strong></dt>
+<dd><p><em>Treasurer &amp; Secretary, March 2007 – August 2009</em></p>
+<p><em>Sumners Blueberry Farms</em> is a family operated corporation based in South Haven, Michigan. During my tenure as Treasurer and Secretary I:</p>
+<ul>
+<li>Maintained corporate accounting using the GNUCash finance software</li>
+<li>Tracked production using OpenOffice Calc spreadsheets</li>
+<li>Generated reports using OpenOffice Calc and Writer</li>
+<li>Scanned receipts and other documents for long term archival</li>
+<li>Organized physical and digital documents for easy reference</li>
+<li>Communicated with third parties via phone, letters, and in-person meetings</li>
+</ul>
+</dd>
+</dl>
+<h2 id="skill-set-summary">Skill Set Summary</h2>
+<table>
+<col style="width: 36%" /><col style="width: 22%" /><col style="width: 23%" /><tbody>
+<tr class="odd">
+<td style="text-align: left;"><p>Apache HTTPD</p></td>
+<td style="text-align: left;"><p>Apache Tomcat</p></td>
+<td style="text-align: left;"><p>CSS</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><p>Effective Communication</p></td>
+<td style="text-align: left;"><p>HAProxy</p></td>
+<td style="text-align: left;"><p>HTML</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><p>Java</p></td>
+<td style="text-align: left;"><p>JavaScript</p></td>
+<td style="text-align: left;"><p>jQuery</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><p>Linux</p></td>
+<td style="text-align: left;"><p>Maven</p></td>
+<td style="text-align: left;"><p>MySql</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><p>nginx</p></td>
+<td style="text-align: left;"><p>Oracle 11g</p></td>
+<td style="text-align: left;"><p>PL/SQL</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><p>PostgreSQL</p></td>
+<td style="text-align: left;"><p>Python</p></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2008</dt>
+<dd><strong>B.Sc., Mathematics</strong>; Clayton State University (Morrow, GA)
+</dd>
+</dl>
+<h2 id="references">References</h2>
+<p><em>Available upon request</em></p>
+<hr />
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#106;&#x61;&#x6d;&#x65;&#x73;&#46;&#x73;&#x75;&#x6d;&#110;&#x65;&#114;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#106;&#x61;&#x6d;&#x65;&#x73;&#46;&#x73;&#x75;&#x6d;&#110;&#x65;&#114;&#x73;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript> • (404) 939 – 3576<br />PO BOX 1567 – Fairburn, GA 30213</p>
+</blockquote>
+</body>
+</html>
