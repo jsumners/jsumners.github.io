@@ -11,7 +11,7 @@ James Sumners
 Experience
 ----------
 
-**Clayton State University (Network & Enterprise Services)**
+**Clayton State University (Technology Infrastructure)**
 
 :   *Linux System Administrator, November 2014 – Present*
 
@@ -24,9 +24,8 @@ Experience
     - Maintain and package Red Hat RPMs
     - Setup and administer Red Hat Satellite 6
     - Lead campus web portal replacement committee
-    - Member of the change management board
 
-**Clayton State University (Administrative Systems)**
+**Clayton State University (Enterprise Applications)**
 
 :   *Database Developer/Linux Administrator, March 2009 - November 2014*
 
@@ -37,7 +36,7 @@ Experience
       web portal
     - Wrote and maintained Oracle PL/SQL packages to facilitate backend
       operations, e.g. scheduled emails with inline attachments and
-      data integration betwen systems
+      data integration between systems
     - Maintained all Linux systems powering the campus Student Information
       System (Banner)
     - Developed a two-factor authentication add-on for the campus's Luminis
@@ -86,7 +85,7 @@ Skill Set Summary
 +-------------------------+---------------+----------------+
 | nginx                   | Oracle 11g    | PL/SQL         |
 +-------------------------+---------------+----------------+
-| PostgreSQL              | Python        |                |
+| PostgreSQL              | Python        | Spring 3/4     |
 +-------------------------+---------------+----------------+
 
 
