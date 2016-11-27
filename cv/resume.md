@@ -19,11 +19,12 @@ Experience
     State University. In this position, some of my various duties include:
 
     - Implement SSL termination and load balancing for campus websites
-      using HAProxy and Keepalived
-    - Primary administrator for all Linux based servers (30+)
+      using HAProxy and UCarp
+    - Primary administrator for all Linux based servers (50+)
     - Maintain and package Red Hat RPMs
-    - Setup and administer Red Hat Satellite 6
-    - Lead campus web portal replacement committee
+    - Setup and administer Red Hat Satellite
+    - Use Ansible to manage configuration
+    - Develop campus student web portal
 
 **Clayton State University (Enterprise Applications)**
 
@@ -73,17 +74,19 @@ Skill Set Summary
 -----------------
 
 +-------------------------+---------------+----------------+
-| Apache HTTPD            | Apache Tomcat | CSS            |
+| Ansible                 | Apache Tomcat | CSS            |
 +-------------------------+---------------+----------------+
 | Effective Communication | HAProxy       | HTML           |
 +-------------------------+---------------+----------------+
 | Java                    | JavaScript    | jQuery         |
 +-------------------------+---------------+----------------+
-| Linux                   | Maven         | MySql          |
+| Linux                   | Maven         | MongoDB        |
 +-------------------------+---------------+----------------+
-| nginx                   | Oracle 11g    | PL/SQL         |
+| MySql                   | nginx         | Node.js        |
 +-------------------------+---------------+----------------+
-| PostgreSQL              | Python        | Spring 3/4     |
+| Oracle 11g/12c          | PL/SQL        | PostgreSQL     |
++-------------------------+---------------+----------------+
+| Python                  | Spring 3/4    |                |
 +-------------------------+---------------+----------------+
 
 
