@@ -3,28 +3,43 @@ James Sumners
 
 ----
 
-> Specialties: Linux, HTML, CSS, JavaScript, Java\
-> *An adept system administrator and developer*
+> Specialties: JavaScript, Linux\
+> *A software engineer with a background in Linux administration*
 
 ----
 
 Experience
 ----------
 
+**Knock**
+
+:   *Software Engineer, May 2018 – Present*
+
+    I am a backend systems software engineer specializing in Node.js based
+    development. In this position I:
+
+    - Build and maintain the frameworks our backend services are built upon
+    - Work with project manager, designers, and frontend engineers to build
+      products to solve business needs
+    - Stay abreast of changes in our technology stack to keep us updated with
+      the latest security updates
+    - Provide guidance to our devops for the requirements our backend systems
+      need for deployment
+
 **Clayton State University (Technology Infrastructure)**
 
-:   *Linux System Administrator, November 2014 – Present*
+:   *Linux System Administrator, November 2014 – April 2018*
 
-    I am the lead system administrator for all Linux systems used by Clayton
-    State University. In this position, some of my various duties include:
+    I was the lead system administrator for all Linux systems used by Clayton
+    State University. In this position, some of my various duties included:
 
-    - Implement SSL termination and load balancing for campus websites
+    - Implementing SSL termination and load balancing for campus websites
       using HAProxy and UCarp
     - Primary administrator for all Linux based servers (50+)
-    - Maintain and package Red Hat RPMs
-    - Setup and administer Red Hat Satellite
-    - Use Ansible to manage configuration
-    - Develop campus student web portal
+    - Maintained and packaged Red Hat RPMs
+    - Setup and administered Red Hat Satellite
+    - Used Ansible to manage configuration
+    - Developed campus student web portal
 
 **Clayton State University (Enterprise Applications)**
 
@@ -103,5 +118,4 @@ References
 
 ----
 
-> <james.sumners@gmail.com> • (404) 939 – 3576\
-> PO BOX 1567 – Fairburn, GA 30213
+> <james@sumners.email> • (404) 939 – 3576
