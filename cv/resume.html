@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>James Sumners ~ Resume</title>
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -23,7 +25,7 @@
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
    */
-  
+
   /* Whole document */
   body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,7 +34,7 @@
       background: #FFFFFF;
       padding: 10px 10px 10px 10px;
   }
-  
+
   /* Title of the resume */
   h1 {
       font-size: 55px;
@@ -45,7 +47,7 @@
       color: #FFFFFF;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Titles of categories */
   h2 {
       /* This is called "sectioncolor" in the ConTeXt stylesheet. */
@@ -66,7 +68,7 @@
       color: #FFFFFF;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Definitions */
   dt {
       float: left;
@@ -81,12 +83,12 @@
       margin-top:0;
       margin-bottom:7px;
   }
-  
+
   /* Blockquotes */
   blockquote {
       text-align: center
   }
-  
+
   /* Links */
   a {
       text-decoration: none;
@@ -98,12 +100,12 @@
       text-decoration: none;
       text-shadow: 1px 1px 1px #333;
   }
-  
+
   /* Horizontal separators */
   hr {
       color: #D2D6D7;
   }
-  
+
   table {
       width: 100%;
   }
@@ -120,13 +122,24 @@
 <h2 id="experience">Experience</h2>
 <dl>
 <dt><strong>Knock</strong></dt>
-<dd><p><em>Software Engineer, May 2018 – Present</em></p>
-<p>I am a backend systems software engineer specializing in Node.js based development. In this position I:</p>
+<dd><p><em>Senior Software Engineer, May 2020 – March 2022</em></p>
+</dd>
+<dd><p><em>Software Engineer, May 2018 – May 2020</em></p>
+<p>I was backend software engineer specializing in Node.js based development with JavaScript. In this position I:</p>
 <ul>
-<li>Build and maintain the frameworks our backend services are built upon</li>
-<li>Work with project manager, designers, and frontend engineers to build products to solve business needs</li>
-<li>Stay abreast of changes in our technology stack to keep us updated with the latest security updates</li>
-<li>Provide guidance to our devops for the requirements our backend systems need for deployment</li>
+<li>Built and maintained the frameworks the backend services were built upon</li>
+<li>Built and maintained internal tooling to make developers’s day-to-day easier</li>
+<li>Built and maintained tooling to run audits against all Git repositories maintained by the organization</li>
+<li>Worked with project managers, designers, and frontend engineers to build RESTful services to solve business needs, including modeling data to be stored in MySQL databases</li>
+<li>Stayed abreast of changes in the technology stack to keep it updated with the latest security advisories</li>
+<li>Provided guidance to our devops for the requirements our backend systems needed for deployment</li>
+<li>Developed and maintained the Docker images used for deploying services</li>
+<li>Built RESTful services to integrate internal and third party data</li>
+<li>Built a resilent webhook ingestion system atop Fastify, AWS SQS, and AWS Lambda with Go</li>
+<li>Implemented eventing between services with AWS Lambda and AWS SQS</li>
+<li>Lead a weekly cross team open meeting that gave backend engineers space to discuss their work and discovered challenges</li>
+<li>Mentored junior engineers and peers</li>
+<li>Assisted with interviewing to hire new backend engineers that would be a culture and talent fit for the team</li>
 </ul>
 </dd>
 <dt><strong>Clayton State University (Technology Infrastructure)</strong></dt>
@@ -182,38 +195,23 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Ansible</td>
-<td>Apache Tomcat</td>
-<td>CSS</td>
+<td>Node.js</td>
+<td>JavaScript</td>
+<td>Fastify</td>
+</tr>
+<tr class="even">
+<td>Docker</td>
+<td>AWS Lambda</td>
+<td>AWS SQS</td>
+</tr>
+<tr class="odd">
+<td>MySQL</td>
+<td>Git</td>
+<td>Mentorship</td>
 </tr>
 <tr class="even">
 <td>Effective Communication</td>
-<td>HAProxy</td>
-<td>HTML</td>
-</tr>
-<tr class="odd">
-<td>Java</td>
-<td>JavaScript</td>
-<td>jQuery</td>
-</tr>
-<tr class="even">
-<td>Linux</td>
-<td>Maven</td>
-<td>MongoDB</td>
-</tr>
-<tr class="odd">
-<td>MySql</td>
-<td>nginx</td>
-<td>Node.js</td>
-</tr>
-<tr class="even">
-<td>Oracle 11g/12c</td>
-<td>PL/SQL</td>
-<td>PostgreSQL</td>
-</tr>
-<tr class="odd">
-<td>Python</td>
-<td>Spring 3/4</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -228,7 +226,7 @@
 <p><em>Available upon request</em></p>
 <hr />
 <blockquote>
-<p><a href="mailto:james@sumners.email" class="email">james@sumners.email</a> • (404) 939 – 3576</p>
+<p><a href="mailto:james.sumners@gmail.com" class="email">james.sumners@gmail.com</a> • (404) 939 – 3576</p>
 </blockquote>
 </body>
 </html>
