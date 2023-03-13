@@ -4,27 +4,68 @@ James Sumners
 ----
 
 > Specialties: JavaScript, Linux\
-> *A software engineer with a background in Linux administration*
+> *A software engineer with a background in Linux administration*\
+> https://james.sumners.info/
 
 ----
 
 Experience
 ----------
 
+**Mezmo**
+
+:   *Software Engineer III, May 2022 - January 2023*
+
+    I was a backend software engineer on the ecosystem team. My work involved
+    maintaining open source modules for client usage, implementing new
+    customer centric features, and getting an API gateway ready for use:
+
+    - Designed and implemented a Kong plugin to block requests (Lua)
+    - Added sliding window support to the in-house developed Kong rate limiting
+      plugin (Lua)
+    - Maintained the Mezmo OpenTelemetry exporter module (Go)
+    - Designed and implemented AWS Lamba job to email customers about API token
+      expiration, and expire outdated tokens in the MongoDB database (JavaScript)
+    - Designed and implemented an API for customers to query their data usage
+      in relation to their billing (JavaScript)
+    - Improved feature parity in the the company's open source Terraform
+      provider module (Go)
+    - Managed deployments of my work to the company's Kubernetes environments
+    - Worked to improve documentation, with a particular focus on documentation
+      that benefits new hires
+
 **Knock**
 
-:   *Software Engineer, May 2018 – Present*
+:   *Senior Software Engineer, May 2020 – March 2022*
+:   *Software Engineer, May 2018 – May 2020*
 
-    I am a backend systems software engineer specializing in Node.js based
-    development. In this position I:
+    I was a backend software engineer specializing in Node.js based
+    development with JavaScript. In this position I:
 
-    - Build and maintain the frameworks our backend services are built upon
-    - Work with project manager, designers, and frontend engineers to build
-      products to solve business needs
-    - Stay abreast of changes in our technology stack to keep us updated with
-      the latest security updates
-    - Provide guidance to our devops for the requirements our backend systems
-      need for deployment
+    - Built and maintained the frameworks the backend services were built upon
+    - Built and maintained internal tooling to make developers's day-to-day
+      easier
+    - Built and maintained tooling to run audits against all Git repositories
+      maintained by the organization
+    - Worked with project managers, designers, and frontend engineers to build
+      RESTful services to solve business needs, including modeling data to be
+      stored in MySQL databases
+    - Stayed abreast of changes in the technology stack to keep it updated with
+      the latest security advisories
+    - Provided guidance to our devops for the requirements our backend systems
+      needed for deployment
+    - Developed and maintained the Docker images used for deploying services
+    - Built RESTful services to integrate internal and third party data
+    - Built a resilent webhook ingestion system atop Fastify, AWS SQS, and
+      AWS Lambda with Go
+    - Implemented eventing between services with AWS Lambda and AWS SQS
+    - Lead a weekly cross team open meeting that gave backend engineers space
+      to discuss their work and discovered challenges
+    - Mentored junior engineers and peers
+    - Assisted with interviewing to hire new backend engineers that would
+      be a culture and talent fit for the team
+    - Lead initiatives around open source, including informing the crafting
+      of a company open source contribution policy
 
 **Clayton State University (Technology Infrastructure)**
 
@@ -73,43 +114,26 @@ Experience
     - Implemented web site designs from lead designer in PHP, HTML, and CSS
     - Implemented dynamic functionality of designs using JavaScript and jQuery
 
-**Sumners Blueberry Farms**
-
-:   *Treasurer & Secretary, March 2007 – August 2009*
-
-    *Sumners Blueberry Farms* is a family operated corporation based in
-    South Haven, Michigan. During my tenure as Treasurer and Secretary I:
-
-    - Maintained corporate accounting using the GNUCash finance software
-    - Tracked production using OpenOffice Calc spreadsheets
-    - Generated reports using OpenOffice Calc and Writer
-    - Communicated with third parties via phone, letters, and in-person meetings
-
 Skill Set Summary
 -----------------
 
 +-------------------------+---------------+----------------+
-| Ansible                 | Apache Tomcat | CSS            |
+| Node.js                 | JavaScript    | Fastify        |
 +-------------------------+---------------+----------------+
-| Effective Communication | HAProxy       | HTML           |
+| Docker                  | AWS Lambda    | AWS SQS        |
 +-------------------------+---------------+----------------+
-| Java                    | JavaScript    | jQuery         |
+| MySQL                   | Git           | Mentorship     |
 +-------------------------+---------------+----------------+
-| Linux                   | Maven         | MongoDB        |
+| Effective Communication | Open Source   | Go             |
 +-------------------------+---------------+----------------+
-| MySql                   | nginx         | Node.js        |
-+-------------------------+---------------+----------------+
-| Oracle 11g/12c          | PL/SQL        | PostgreSQL     |
-+-------------------------+---------------+----------------+
-| Python                  | Spring 3/4    |                |
+| Kubernetes              |               |                |
 +-------------------------+---------------+----------------+
 
 
 Education
 ---------
 
-2008
-:   **B.Sc., Mathematics**; Clayton State University (Morrow, GA)
+**B.Sc., Mathematics**; Clayton State University (Morrow, GA)
 
 References
 ----------------------------------------
@@ -118,4 +142,4 @@ References
 
 ----
 
-> <james@sumners.email> • (404) 939 – 3576
+> <james.sumners@gmail.com> • (404) 939 – 3576

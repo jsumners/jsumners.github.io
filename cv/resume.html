@@ -6,16 +6,160 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>James Sumners ~ Resume</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <style type="text/css">
   /*
    * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
@@ -110,45 +254,96 @@
       width: 100%;
   }
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h1 id="james-sumners">James Sumners</h1>
 <hr />
 <blockquote>
 <p>Specialties: JavaScript, Linux<br />
-<em>A software engineer with a background in Linux administration</em><br />
+<em>A software engineer with a background in Linux
+administration</em><br />
 https://james.sumners.info/</p>
 </blockquote>
 <hr />
 <h2 id="experience">Experience</h2>
 <dl>
-<dt><strong>Knock</strong></dt>
-<dd><p><em>Senior Software Engineer, May 2020 – March 2022</em></p>
-</dd>
-<dd><p><em>Software Engineer, May 2018 – May 2020</em></p>
-<p>I was a backend software engineer specializing in Node.js based development with JavaScript. In this position I:</p>
+<dt><strong>Mezmo</strong></dt>
+<dd>
+<p><em>Software Engineer III, May 2022 - January 2023</em></p>
+<p>I was a backend software engineer on the ecosystem team. My work
+involved maintaining open source modules for client usage, implementing
+new customer centric features, and getting an API gateway ready for
+use:</p>
 <ul>
-<li>Built and maintained the frameworks the backend services were built upon</li>
-<li>Built and maintained internal tooling to make developers’s day-to-day easier</li>
-<li>Built and maintained tooling to run audits against all Git repositories maintained by the organization</li>
-<li>Worked with project managers, designers, and frontend engineers to build RESTful services to solve business needs, including modeling data to be stored in MySQL databases</li>
-<li>Stayed abreast of changes in the technology stack to keep it updated with the latest security advisories</li>
-<li>Provided guidance to our devops for the requirements our backend systems needed for deployment</li>
-<li>Developed and maintained the Docker images used for deploying services</li>
-<li>Built RESTful services to integrate internal and third party data</li>
-<li>Built a resilent webhook ingestion system atop Fastify, AWS SQS, and AWS Lambda with Go</li>
-<li>Implemented eventing between services with AWS Lambda and AWS SQS</li>
-<li>Lead a weekly cross team open meeting that gave backend engineers space to discuss their work and discovered challenges</li>
-<li>Mentored junior engineers and peers</li>
-<li>Assisted with interviewing to hire new backend engineers that would be a culture and talent fit for the team</li>
-<li>Lead initiatives around open source, including informing the crafting of a company open source contribution policy</li>
+<li>Designed and implemented a Kong plugin to block requests (Lua)</li>
+<li>Added sliding window support to the in-house developed Kong rate
+limiting plugin (Lua)</li>
+<li>Maintained the Mezmo OpenTelemetry exporter module (Go)</li>
+<li>Designed and implemented AWS Lamba job to email customers about API
+token expiration, and expire outdated tokens in the MongoDB database
+(JavaScript)</li>
+<li>Designed and implemented an API for customers to query their data
+usage in relation to their billing (JavaScript)</li>
+<li>Improved feature parity in the the company’s open source Terraform
+provider module (Go)</li>
+<li>Managed deployments of my work to the company’s Kubernetes
+environments</li>
+<li>Worked to improve documentation, with a particular focus on
+documentation that benefits new hires</li>
 </ul>
 </dd>
-<dt><strong>Clayton State University (Technology Infrastructure)</strong></dt>
-<dd><p><em>Linux System Administrator, November 2014 – April 2018</em></p>
-<p>I was the lead system administrator for all Linux systems used by Clayton State University. In this position, some of my various duties included:</p>
+<dt><strong>Knock</strong></dt>
+<dd>
+<p><em>Senior Software Engineer, May 2020 – March 2022</em></p>
+</dd>
+<dd>
+<p><em>Software Engineer, May 2018 – May 2020</em></p>
+<p>I was a backend software engineer specializing in Node.js based
+development with JavaScript. In this position I:</p>
 <ul>
-<li>Implementing SSL termination and load balancing for campus websites using HAProxy and UCarp</li>
+<li>Built and maintained the frameworks the backend services were built
+upon</li>
+<li>Built and maintained internal tooling to make developers’s
+day-to-day easier</li>
+<li>Built and maintained tooling to run audits against all Git
+repositories maintained by the organization</li>
+<li>Worked with project managers, designers, and frontend engineers to
+build RESTful services to solve business needs, including modeling data
+to be stored in MySQL databases</li>
+<li>Stayed abreast of changes in the technology stack to keep it updated
+with the latest security advisories</li>
+<li>Provided guidance to our devops for the requirements our backend
+systems needed for deployment</li>
+<li>Developed and maintained the Docker images used for deploying
+services</li>
+<li>Built RESTful services to integrate internal and third party
+data</li>
+<li>Built a resilent webhook ingestion system atop Fastify, AWS SQS, and
+AWS Lambda with Go</li>
+<li>Implemented eventing between services with AWS Lambda and AWS
+SQS</li>
+<li>Lead a weekly cross team open meeting that gave backend engineers
+space to discuss their work and discovered challenges</li>
+<li>Mentored junior engineers and peers</li>
+<li>Assisted with interviewing to hire new backend engineers that would
+be a culture and talent fit for the team</li>
+<li>Lead initiatives around open source, including informing the
+crafting of a company open source contribution policy</li>
+</ul>
+</dd>
+<dt><strong>Clayton State University (Technology
+Infrastructure)</strong></dt>
+<dd>
+<p><em>Linux System Administrator, November 2014 – April 2018</em></p>
+<p>I was the lead system administrator for all Linux systems used by
+Clayton State University. In this position, some of my various duties
+included:</p>
+<ul>
+<li>Implementing SSL termination and load balancing for campus websites
+using HAProxy and UCarp</li>
 <li>Primary administrator for all Linux based servers (50+)</li>
 <li>Maintained and packaged Red Hat RPMs</li>
 <li>Setup and administered Red Hat Satellite</li>
@@ -156,25 +351,43 @@ https://james.sumners.info/</p>
 <li>Developed campus student web portal</li>
 </ul>
 </dd>
-<dt><strong>Clayton State University (Enterprise Applications)</strong></dt>
-<dd><p><em>Database Developer/Linux Administrator, March 2009 - November 2014</em></p>
-<p>In this position I was a web developer, database developer, and Linux system administrator. Some of my accomplishments in this position include:</p>
+<dt><strong>Clayton State University (Enterprise
+Applications)</strong></dt>
+<dd>
+<p><em>Database Developer/Linux Administrator, March 2009 - November
+2014</em></p>
+<p>In this position I was a web developer, database developer, and Linux
+system administrator. Some of my accomplishments in this position
+include:</p>
 <ul>
-<li>Developed a replacement SSO connector for Ellucian’s Luminis 4 web portal</li>
-<li>Wrote and maintained Oracle PL/SQL packages to facilitate backend operations, e.g. scheduled emails with inline attachments and data integration between systems</li>
-<li>Maintained all Linux systems powering the campus Student Information System (Banner)</li>
-<li>Developed a two-factor authentication add-on for the campus’s Luminis 4 implementation</li>
-<li>Developed REST based web APIs for data integration between systems like the Student Information System and the campus web portal</li>
+<li>Developed a replacement SSO connector for Ellucian’s Luminis 4 web
+portal</li>
+<li>Wrote and maintained Oracle PL/SQL packages to facilitate backend
+operations, e.g. scheduled emails with inline attachments and data
+integration between systems</li>
+<li>Maintained all Linux systems powering the campus Student Information
+System (Banner)</li>
+<li>Developed a two-factor authentication add-on for the campus’s
+Luminis 4 implementation</li>
+<li>Developed REST based web APIs for data integration between systems
+like the Student Information System and the campus web portal</li>
 </ul>
 </dd>
 <dt><strong>Platypus Web Productions</strong></dt>
-<dd><p><em>Lead Web Developer, April 2009 – December 2009</em></p>
-<p><em>Platypus Web Productions</em> was a short lived independent web design and development firm established by me and a partner. In my role as the web developer I:</p>
+<dd>
+<p><em>Lead Web Developer, April 2009 – December 2009</em></p>
+<p><em>Platypus Web Productions</em> was a short lived independent web
+design and development firm established by me and a partner. In my role
+as the web developer I:</p>
 <ul>
-<li>Developed a simple PHP templating engine for use in client projects</li>
-<li>Worked with the lead designer to devise workable web site designs</li>
-<li>Implemented web site designs from lead designer in PHP, HTML, and CSS</li>
-<li>Implemented dynamic functionality of designs using JavaScript and jQuery</li>
+<li>Developed a simple PHP templating engine for use in client
+projects</li>
+<li>Worked with the lead designer to devise workable web site
+designs</li>
+<li>Implemented web site designs from lead designer in PHP, HTML, and
+CSS</li>
+<li>Implemented dynamic functionality of designs using JavaScript and
+jQuery</li>
 </ul>
 </dd>
 </dl>
@@ -204,17 +417,24 @@ https://james.sumners.info/</p>
 <tr class="even">
 <td>Effective Communication</td>
 <td>Open Source</td>
+<td>Go</td>
+</tr>
+<tr class="odd">
+<td>Kubernetes</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="education">Education</h2>
-<p><strong>B.Sc., Mathematics</strong>; Clayton State University (Morrow, GA)</p>
+<p><strong>B.Sc., Mathematics</strong>; Clayton State University
+(Morrow, GA)</p>
 <h2 id="references">References</h2>
 <p><em>Available upon request</em></p>
 <hr />
 <blockquote>
-<p><a href="mailto:james.sumners@gmail.com" class="email">james.sumners@gmail.com</a> • (404) 939 – 3576</p>
+<p><a href="mailto:james.sumners@gmail.com"
+class="email">james.sumners@gmail.com</a> • (404) 939 – 3576</p>
 </blockquote>
 </body>
 </html>
