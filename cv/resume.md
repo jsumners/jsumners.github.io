@@ -5,9 +5,35 @@ James Sumners
 
 > Specialties: JavaScript, Linux\
 > *A software engineer with a background in Linux administration*\
-> https://james.sumners.info/
+> <https://james.sumners.info/>
 
 ----
+
+Open Source
+----------
+
+In my personal time, I am a prolific contributor to open source projects, particularly in the JavaScript ecosystem. Listed here are a few of the major projects that I work on.
+
+**Pino**
+
+: *Core Maintainer, September 2016 - Present*
+: <https://github.com/pinojs/pino>
+
+    Pino is a logging library for applications built with JavaScript on Node.js. It prioritizes speed and machine parsebility over anything else. 
+
+**Fastify**
+
+: *Core Maintainer, September 2017 - Present*
+: <https://github.com/fastify/fastify>
+
+    Fastify is an HTTP framework for applications built with JavaScript on Node.js, an alternative to the well known Express framework.
+    
+**LDAPjs**
+
+: *Lead Maintainer, August 2019 - Present*
+: <https://github.com/ldapjs/node-ldapjs>
+
+    LDAPjs provides a framework for building LDAP servers, and a client to interact with standard LDAP servers, for applications built with JavaScript on Node.js.
 
 Experience
 ----------
@@ -19,7 +45,7 @@ Experience
     I was a backend software engineer on the ecosystem team. My work involved
     maintaining open source modules for client usage, implementing new
     customer centric features, and getting an API gateway ready for use:
-
+    
     - Designed and implemented a Kong plugin to block requests (Lua)
     - Added sliding window support to the in-house developed Kong rate limiting
       plugin (Lua)
@@ -41,7 +67,7 @@ Experience
 
     I was a backend software engineer specializing in Node.js based
     development with JavaScript. In this position I:
-
+    
     - Built and maintained the frameworks the backend services were built upon
     - Built and maintained internal tooling to make developers's day-to-day
       easier
@@ -73,7 +99,7 @@ Experience
 
     I was the lead system administrator for all Linux systems used by Clayton
     State University. In this position, some of my various duties included:
-
+    
     - Implementing SSL termination and load balancing for campus websites
       using HAProxy and UCarp
     - Primary administrator for all Linux based servers (50+)
@@ -88,7 +114,7 @@ Experience
 
     In this position I was a web developer, database developer, and Linux
     system administrator. Some of my accomplishments in this position include:
-
+    
     - Developed a replacement SSO connector for Ellucian's Luminis 4
       web portal
     - Wrote and maintained Oracle PL/SQL packages to facilitate backend
@@ -108,7 +134,7 @@ Experience
     *Platypus Web Productions* was a short lived independent web design and
     development firm established by me and a partner. In my role as the web
     developer I:
-
+    
     - Developed a simple PHP templating engine for use in client projects
     - Worked with the lead designer to devise workable web site designs
     - Implemented web site designs from lead designer in PHP, HTML, and CSS
